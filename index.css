@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+header{
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    padding: 1rem;
+    margin: 1rem;
+}
+.profile{
+    padding: 6rem;
+    margin: 2rem;
+}
+.profile h1,h2{
+    text-align: left;
+}
