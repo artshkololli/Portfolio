@@ -37,6 +37,10 @@ li a {
     padding: 0;
 }
 .projects ul li{
-    padding: 2rem;
+    background-color: aliceblue;
     margin: 2rem;
+}
+img{
+    width: 100%;
+    height: auto;
 }
