@@ -15,8 +15,7 @@
             </ul>
         </nav>
         <div class="about">
-            <h1>Hello</h1>
-            <h1>I'm Art Shkololli</h1>
+            <h1>Hello ,<br> I'm Art Shkololli</h1>
             <h2>Web Developer</h2>
         </div>
     </header>
@@ -25,15 +24,30 @@
             <h1>PORTFOLIO</h1>
             <p>A selection of recent projects I have worked on.</p>
             <ul>
-                <h2>BookAway App</h2>
+                <h2><a href="https://github.com/artshkololli/BookAway" style="text-decoration: none;">BookAway App</a></h2>
                 <h3>AngularJS | NodeJS | MongoDB | Login | Register</h3>
-                <li><a href="#"><img src="images/BookAway_Capture.png" alt="BookAway App"></a></li>
-                <h2>Expense App</h2>
+                <li><a href="#"><img id="image1" src="images/BookAway_Capture.png" alt="BookAway"></a></li>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img">
+                    <div id="caption"></div>
+                </div>
+                <h2><a href="https://github.com/artshkololli/Expense_App" style="text-decoration: none;">Expense App</a></h2>
                 <h3>ReactJS | ASP.NET Core | SQL Server | Login | Register</h3>
-                <li><a href="#"><img src="images/Expense_Capture.PNG" alt="Exprense App"></a></li>
+                <li><a href="#"><img id="image2" src="images/Expense_Capture.PNG" alt="Expense"></a></li>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img">
+                    <div id="caption"></div>
+                </div>
                 <h2>Food App</h2>
                 <h3>ReactJS | Firebase Database</h3>
-                <li><a href="#"><img src="images/Food_Capture.PNG" alt="Food App"></a></li>
+                <li><a href="#"><img id="image3" src="images/Food_Capture.PNG" alt="Food"></a></li>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img">
+                    <div id="caption"></div>
+                </div>
             </ul>
         </div>
     </section>
@@ -42,4 +56,5 @@
         <h3>Email<h3>
         <h1>artshkololli@gmail.com</h1>
     </footer>
+    <script src="index.js"></script>
 </body>
