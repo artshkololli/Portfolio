@@ -1,9 +1,10 @@
 body{
     background-color: aliceblue;
+    margin: 0;
 }
 header{
-    text-align: left;
-    background-color: rgb(18, 25, 32);
+    text-align: right;
+    background-color: rgb(24, 39, 54);
     color: gainsboro;
 }
 header h1{
@@ -12,7 +13,7 @@ header h1{
 nav ul{
     list-style-type: none;
     padding-top: 2rem;
-    padding-left: 4.5rem;
+    padding-left: 0;
 }
 nav ul li{
     display: inline;
@@ -20,15 +21,21 @@ nav ul li{
     margin: 0.5rem;
 }
 nav ul li a {
+    font-size: 1.5rem;
     text-decoration: none;
     color: gainsboro;
 }
 .about{
-    padding: 0 3rem 2rem 3rem;
     margin: 2rem;
 }
-.about h1,h2{
+.about h1{
     text-align: left;
+    padding-left: 5rem;
+}
+.about h2{
+    text-align: left;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
 }
 .projects{
     padding: 0;
@@ -40,38 +47,46 @@ nav ul li a {
     color: lightslategray;
 }
 .projects p{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
-    color: black;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid black;
+    color:lightslategray;
+    padding: 0;
+    margin: 0;
 }
 .projects ul{
+    border-top: 1px solid black;
     padding: 0;
+    margin: 0;
     list-style-type: none;
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
 .projects ul li{
-    margin: 2rem;
+    margin: 1.5rem 0.5rem;
 }
 .projects ul h2{
     text-align: center;
     font-size: 30px;
+    margin: 0;
 }
 .projects h3{
     color: lightslategray;
 }
 img{
-    width: 30%;
-    height: auto;
+    width: 100%;
+    height: 500px;
+    background-size: contain;
 }
 #image1,#image2,#image3 {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
-  
-#image1,#image2,#image3:hover {opacity: 0.7;}
+
+#image1:hover {opacity: 0.7;}
+#image2:hover {opacity: 0.7;}
+#image3:hover {opacity: 0.7;}
 
 .modal {
 display: none; 
@@ -145,6 +160,15 @@ cursor: pointer;
     }
 }
 footer{
+    background-color: rgb(24, 39, 54);
     text-align: center;
-    text-decoration: none;
+    color: gainsboro;
+}
+footer h1 , h3{
+    margin: 0;
+    padding: 1rem;
+}
+footer h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
 }
