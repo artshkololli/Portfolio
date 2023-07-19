@@ -1,3 +1,4 @@
+//Demo modal
 var modal = document.getElementById("myModal");
 
 var img1 = document.getElementById("image1");
@@ -26,3 +27,10 @@ var span = document.getElementsByClassName("close")[0];
 span.onclick = function() { 
   modal.style.display = "none";
 }
+
+//Loader
+
+var preloader = document.getElementById('loader');
+setTimeout(function preLoaderHandler(){
+    preloader.style.display = 'none';
+},3000)
