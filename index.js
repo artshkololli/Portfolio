@@ -33,4 +33,4 @@ span.onclick = function() {
 var preloader = document.getElementById('loader');
 setTimeout(function preLoaderHandler(){
     preloader.style.display = 'none';
-},3000)
+},2300)

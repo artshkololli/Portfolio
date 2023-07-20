@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: aliceblue;
     margin: 0;
@@ -12,9 +15,13 @@ nav{
     background-color:rgb(24, 39, 54);
     width: 100%;
     display: block;
+    overflow: hidden;
+    position: fixed;
+    margin-top: -0.5rem;
 }
 nav ul{
     list-style-type: none;
+    padding-right: 1rem;
 }
 nav ul li{
     display: inline;
@@ -52,38 +59,38 @@ nav ul li a {
     padding-top: 1rem;
 }
 .projects p{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     color:lightslategray;
     padding: 0;
     padding-bottom: 0.5rem;
     margin: 0;
 }
-.projects ul{
+.portfolio{
+    padding: 0rem 15rem;
+}
+.portfolio ul{
     border-top: 1px solid black;
     padding: 0;
     margin: 0;
-    list-style-type: none;
     text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.projects ul li{
+    list-style-type: none;
+}   
+.portfolio li{
     margin: 1.5rem 0.5rem;
 }
-.projects ul h2{
+.portfolio ul h2{
     text-align: center;
     font-size: 30px;
     margin: 0;
 }
-.projects h3{
+.portfolio h3{
     color: lightslategray;
     border-bottom: 1px solid black;
 }
 img{
     width: 100%;
-    height: 500px;
-    background-size: contain;
+    height: auto;
 }
 #image1,#image2,#image3 {
     border-radius: 5px;
