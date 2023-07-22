@@ -4,6 +4,7 @@ html{
 body{
     background-color: aliceblue;
     margin: 0;
+    min-width:350px;
 }
 header{
     text-align: right;
@@ -34,9 +35,8 @@ nav ul li a {
     color: gainsboro;
 }
 .about{
-    margin: 2rem;
-    margin-top: 0;
-    padding: 7rem 0;
+    margin: 0;
+    padding: 7rem 3rem;
 }
 .about h1{
     font-size: 80px;
@@ -57,18 +57,23 @@ nav ul li a {
     padding-top: 1rem;
 }
 .projects p{
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     color:lightslategray;
-    padding: 0;
-    padding-bottom: 0.5rem;
+    border-bottom: 1px solid black;
+    padding: 0.5rem 0;
     margin: 0;
 }
 .portfolio{
     padding: 0rem;
 }
+.portfolio div{
+    border-bottom: 1px solid black;
+}
+.portfolio p{
+    border: none;
+}
 .portfolio ul{
-    border-top: 1px solid black;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -78,19 +83,23 @@ nav ul li a {
     margin: 1.5rem 0.5rem;
 }
 .portfolio ul h2{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     margin: 0;
 }
 .portfolio h3{
     color: lightslategray;
     border-bottom: 1px solid black;
+    text-align: left;
+    padding: 1rem 0;
 }
 img{
     width: 100%;
+    max-width: 1000px;
     height: auto;
-    max-height: 700px;
+    max-height: 600px;
 }
+
 #image1,#image2,#image3 {
     border-radius: 5px;
     cursor: pointer;
