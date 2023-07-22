@@ -36,7 +36,7 @@ nav ul li a {
 }
 .about{
     margin: 0;
-    padding: 7rem 3rem;
+    padding: 7rem 7rem;
 }
 .about h1{
     font-size: 80px;
@@ -55,6 +55,7 @@ nav ul li a {
     font-size: 40px;
     color: lightslategray;
     padding-top: 1rem;
+    margin: 0;
 }
 .projects p{
     text-align: center;
