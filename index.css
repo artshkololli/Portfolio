@@ -89,6 +89,7 @@ nav ul li a {
 img{
     width: 100%;
     height: auto;
+    max-height: 700px;
 }
 #image1,#image2,#image3 {
     border-radius: 5px;
