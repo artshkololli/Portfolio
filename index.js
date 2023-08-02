@@ -4,6 +4,7 @@ var modal = document.getElementById("myModal");
 var img1 = document.getElementById("image1");
 var img2 = document.getElementById("image2");
 var img3 = document.getElementById("image3");
+var img4 = document.getElementById("image4");
 var modalImg = document.getElementById("img");
 var captionText = document.getElementById("caption");
 img1.onclick = function(){
@@ -20,6 +21,11 @@ img3.onclick = function(){
   modal.style.display = "block";
   modalImg.src = "Demo/"+img3.alt+"_Demo.gif";
   captionText.innerHTML = img3.alt +" App-Demo";
+}
+img4.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = "Demo/"+img4.alt+"_Demo.gif";
+  captionText.innerHTML = img4.alt +" App-Demo";
 }
 
 var span = document.getElementsByClassName("close")[0];
